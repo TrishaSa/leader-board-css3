@@ -21,7 +21,33 @@ hr{
 		border: 1px solid;
 		margin-bottom: 27px;
 	}
-
+/*menu*/
+nav{
+	background-color: blue;
+}
+.menus{
+	display: flex;
+	justify-content: space-evenly;
+}
+.menu, .logo{
+	align-items: center;
+	display: flex;
+	
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+	margin-right: 40px;
+	
+}
+.logo img{
+	width: 50px;
+	height: 60px;
+	margin: 20px;
+}
+.logo-tittle{
+	color: white;
+}
 /*TOP PLAYERS STYLE or ulities*/
 .top-players{
 	margin-bottom: 30px;
